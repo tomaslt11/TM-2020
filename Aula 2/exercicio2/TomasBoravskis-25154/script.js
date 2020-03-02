@@ -11,6 +11,6 @@ function calculate()
 {
     var Biggestnumber = Math.max.apply(Math, numbers);
     var value = document.getElementById("result").innertext=Biggestnumber;
-    document.getElementById("result").innerText = numbers.toString();
+    document.getElementById("result").innerText = value;
 
 }
