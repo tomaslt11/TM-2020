@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    void Update()
-    {
-			transform.Rotate (new Vector3 (15,30,45) * Time.deltaTime);
-    }
+    public float speed;
+	public Rigidbody2D rb;
+	
+	public Vector3 startPosition;
+	
+	private float movement;
+	
+	void start()
+	{
+		startPosition - transform.position;
+	}
+	
+	void Update()
+	{
+		movement 
+	}
 }
